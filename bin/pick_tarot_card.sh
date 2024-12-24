@@ -1,11 +1,13 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-set -euo pipefail  # Exit on error, undefined vars, and pipe failures
+set -euo pipefail
 
-# Set the base directory relative to the script location
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-BASE_DIR="$(dirname "$SCRIPT_DIR")"
-DATA_DIR="$BASE_DIR/data"
+# Safely resolve the actual location of this script
+SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
+SCRIPT_DIR="$(cd "$(dirname "$SCRIPT_PATH")" && pwd)"
+
+# The data directory is one level up from bin/
+DATA_DIR="${SCRIPT_DIR}/../data"
 
 # Function to display usage
 show_usage() {
@@ -15,51 +17,40 @@ show_usage() {
     exit 1
 }
 
-# Function to validate data directory
+# Validate data directory
 validate_data_dir() {
     if [[ ! -d "$DATA_DIR" ]]; then
         echo "Error: Data directory not found at $DATA_DIR"
         exit 1
     fi
     
-    if [[ -z "$(find "$DATA_DIR" -name "*.json" -type f)" ]]; then
+    if [[ -z "$(find "$DATA_DIR" -name "*.json" -type f 2>/dev/null)" ]]; then
         echo "Error: No JSON files found in $DATA_DIR"
-        echo "Please add tarot card data files to the data directory"
         exit 1
     fi
 }
 
-# Set card type based on argument
-CARD_TYPE="day"  # default value
+# Default to "day" if no argument
+CARD_TYPE="day"
 if [[ $# -gt 0 ]]; then
     case "$1" in
-        "hour"|"day") CARD_TYPE="$1" ;;
+        hour|day) CARD_TYPE="$1" ;;
         *) show_usage ;;
     esac
 fi
 
-# Validate data directory
 validate_data_dir
 
-# Find all matching files for the card type
-mapfile -t FILES < <(find "$DATA_DIR" -name "${CARD_TYPE}_*.json" -type f)
+# Gather files
+mapfile -t FILES < <(find "$DATA_DIR" -type f -name "${CARD_TYPE}_*.json")
 
-# Check if we found any matching files
 if [[ ${#FILES[@]} -eq 0 ]]; then
-    echo "Error: No files found matching pattern '${CARD_TYPE}_*.json' in $DATA_DIR"
+    echo "Error: No files matching '${CARD_TYPE}_*.json' in $DATA_DIR"
     exit 1
 fi
 
-# Pick a random file
+# Pick random file
 RANDOM_FILE="${FILES[RANDOM % ${#FILES[@]}]}"
 
-# Verify file exists and is readable
-if [[ ! -r "$RANDOM_FILE" ]]; then
-    echo "Error: Selected file '$RANDOM_FILE' is not readable"
-    exit 1
-fi
-
-# Print the file name and contents
 echo "Selected card from: $(basename "$RANDOM_FILE")"
 cat "$RANDOM_FILE"
-

@@ -1,7 +1,7 @@
 {
   "name": "tarotask",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tarotask",
   "main": "index.js",
   "scripts": {
