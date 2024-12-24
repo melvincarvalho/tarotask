@@ -1,0 +1,8 @@
+Okay, here's a short daily description for the Five of Cups, based on the Thoth/Crowley tradition, formatted for use in a JSON:
+
+```json
+{
+  "card": "Five of Cups",
+  "daily_description": "Today, you might feel a pang of regret or disappointment. Mourn what has passed, but don't let it blind you to what remains. There's still something of value to be found, even amidst the loss. Don't get stuck in a pit of sorrow; the path forward requires acknowledging the past but moving beyond it. Look to see what is not spilled."
+}
+```

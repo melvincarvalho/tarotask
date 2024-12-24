@@ -1,0 +1,14 @@
+Okay, here's a short daily description for the Crowley Thoth Tarot card "Fortune," formatted as JSON:
+
+```json
+{
+  "card_name": "Fortune",
+  "daily_description": {
+    "keywords": ["change", "cycles", "destiny", "turning point", "fate", "luck", "opportunity", "inevitability"],
+    "general_meaning": "Today brings a sense of movement and change. The wheel of fortune is turning, bringing with it new opportunities and possibilities, or perhaps a necessary shift in your circumstances. Be prepared to adapt and embrace the flow. Things may not stay the same for long, so pay attention to the moment and be open to what unfolds. Don't fight the inevitable, but rather seek to understand the pattern and find your place within it. This card also suggests that what you sow, you shall reap, so consider your actions and intentions.",
+    "advice": "Accept change, remain flexible, and recognize the potential within this period of transition. Be mindful of your actions as they contribute to the cycles of your life. Seek to understand the patterns at play, rather than trying to control them completely."
+   , "caution": "Be mindful of becoming too passive. While acknowledging fate, remember that your choices still influence the course of your journey."
+
+  }
+}
+```

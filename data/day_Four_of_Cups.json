@@ -1,0 +1,9 @@
+Okay, here's a short daily description for the Crowley Thoth Tarot's Four of Cups, formatted for a JSON file:
+
+```json
+{
+  "card": "Four of Cups",
+  "daily_description": "Today, you may find yourself feeling a bit apathetic or dissatisfied with your current situation. Opportunities might be presented, but you may be too inwardly focused to recognize them.  It's a day to examine any feelings of boredom or disillusionment.  Don't get stuck in a rut; try to see things from a new perspective, or gently nudge yourself out of your comfort zone. A little gratitude for what you have might just shift your mood.",
+  "keywords": ["apathy", "dissatisfaction", "boredom", "introspection", "missed opportunities", "stagnation", "withdrawal"]
+}
+```

@@ -1,0 +1,27 @@
+{
+  "name": "tarotask",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "tarotask",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvincarvalho/tarotask.git"
+  },
+  "keywords": [
+    "tarot",
+    "tarotask"
+  ],
+  "author": "",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/melvincarvalho/tarotask/issues"
+  },
+  "homepage": "https://github.com/melvincarvalho/tarotask#readme",
+  "bin": {
+    "tarotask": "./bin/pick_tarot_card.sh"
+  }
+}

@@ -1,0 +1,20 @@
+Okay, here's a short daily description for the Crowley Tarot card, Prince of Swords, formatted as JSON:
+
+```json
+{
+  "card": "Prince of Swords",
+  "daily_description": {
+    "keywords": [
+      "intellect",
+      "analysis",
+      "communication",
+      "logic",
+      "restlessness",
+      "potential",
+      "ideas",
+      "swiftness"
+    ],
+      "description": "Today, your mind is sharp and active. You might find yourself drawn to analysis, debate, or problem-solving.  New ideas and plans are buzzing. Use your intellect to your advantage but be mindful of impatience. Embrace the potential for swift action and clear communication."
+  }
+}
+```

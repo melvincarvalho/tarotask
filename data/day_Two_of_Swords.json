@@ -1,0 +1,10 @@
+Okay, here's a short daily description for the Crowley Tarot's Two of Swords, formatted as a JSON string:
+
+```json
+{
+  "card": "Two of Swords",
+  "description": "A day of difficult choices and balanced opposition. You might feel stuck between two options, neither of which seems ideal. There's a need for careful consideration and objectivity, even if the path forward isn't immediately clear. Avoid impulsive decisions. Seek mental clarity and trust your inner guidance amidst the confusion.",
+  "keywords": ["stalemate", "difficult choices", "balance", "blindness", "mental tension", "objective analysis", "inner guidance", "avoidance"],
+  "reversed_keywords": ["indecision", "lack of clarity", "biased decisions", "stuck in conflict", "avoidance backfires"]
+}
+```

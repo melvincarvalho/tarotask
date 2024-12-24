@@ -1,0 +1,22 @@
+```json
+{
+  "card": "Lust",
+  "daily_description": [
+      {
+      "theme": "Embrace Your Inner Fire",
+       "text": "Today, the energy of Lust is calling you to embrace your passions and inner desires with courage. Don't shy away from what truly excites you. This is a time for bold action, creative expression, and living life with fiery intensity.  What are you longing for? Go for it with confidence and zest."
+      },
+       {
+      "theme": "Transformation through Intensity",
+       "text": "Lust signifies a powerful force of transformation. It might be a day where you're driven by a deep, instinctive energy that pushes you beyond your comfort zone. Allow this intensity to fuel your growth and change. Be mindful that it can be a double edged sword, requiring temperance alongside the passion."
+     },
+     {
+      "theme": "Authentic Self-Expression",
+      "text": "The energy of Lust encourages you to show up authentically.  Don't hold back from expressing your true self,  even the parts that feel raw or vulnerable. Embrace your unique power and let it shine. This card reminds us that true power comes from being aligned with our deepest desires and instincts."
+    }
+
+  ],
+  "keywords": ["Passion", "Courage", "Desire", "Intensity", "Transformation", "Authenticity", "Vitality", "Inner Power"],
+  "reversed_keywords": ["Suppressed passion", "Fear of desire", "Loss of vitality", "Insecurity", "Self-doubt"]
+}
+```

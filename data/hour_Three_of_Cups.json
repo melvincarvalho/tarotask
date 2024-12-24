@@ -1,0 +1,9 @@
+Okay, here's a short daily description for the Crowley Tarot's Three of Cups, suitable for a JSON format:
+
+```json
+{
+  "card_name": "Three of Cups",
+  "daily_description": "Today, celebrate connections and abundance! This card encourages you to enjoy the company of friends, share your joy, and appreciate the good things in your life. Social gatherings and positive interactions are favored. Let your happiness overflow and be generous with your spirit.",
+  "keywords": ["celebration", "friendship", "abundance", "joy", "community", "social gatherings", "sharing", "overflowing happiness"]
+}
+```

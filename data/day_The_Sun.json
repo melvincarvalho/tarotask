@@ -1,0 +1,14 @@
+Okay, here's a short daily description for the Crowley Thoth Tarot card, The Sun, formatted as a JSON object:
+
+```json
+{
+  "card": "The Sun",
+  "daily_description": {
+    "morning": "A surge of vitality and clarity washes over you. Embrace joy and optimism, letting your inner light shine brightly.  Opportunities for success and recognition abound.",
+    "afternoon": "Focus on growth and positive action. Celebrate your achievements and share your warmth with others. Children and creative projects are favored.",
+     "evening": "Reflect on the day's blessings. Gratitude will amplify the feelings of happiness and fulfillment.  Enjoy the peace that comes with knowing your potential is unlimited.",
+     "overall": "Today is about radiant energy, success, and celebrating life. Embrace positivity and allow your confidence to guide you."
+  },
+   "keywords": ["joy", "vitality", "success", "clarity", "optimism", "recognition", "growth", "abundance", "celebration", "potential"]
+}
+```

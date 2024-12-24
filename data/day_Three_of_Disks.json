@@ -1,0 +1,14 @@
+Okay, here's a short daily description for the Crowley Thoth Tarot card, Three of Disks, formatted as a JSON object:
+
+```json
+{
+  "card": "Three of Disks",
+  "daily_description": {
+    "morning": "Focus on practical application today. You have ideas and skills, now is the time to put them into action. Collaboration may be key, so be open to working with others.",
+    "afternoon": "Progress is being made, but don't rush. Detail and precision are important. Pay attention to the fine points and be meticulous in your execution.",
+    "evening": "Reflect on what you've built today. A sense of accomplishment is building. Recognize the value of both your individual contribution and the efforts of the group. Plan for future steps, using the lessons you've learned.",
+   "overall": "Today is about mastering the craft, building upon your skills, and enjoying the process of creation and collaboration.  Be diligent, and tangible results will follow."
+  },
+  "keywords": ["practical", "skill", "collaboration", "creation", "mastery", "details", "implementation", "progress", "building"]
+}
+```

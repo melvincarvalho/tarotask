@@ -1,0 +1,12 @@
+Okay, here's a short daily description for the Nine of Cups, based on the Crowley Thoth Tarot, formatted for JSON:
+
+```json
+{
+  "card": "Nine of Cups",
+  "daily_description": {
+    "title": "A Day of Wish Fulfillment",
+    "text": "Today brings a sense of contentment and satisfaction. Your desires and aspirations are aligning, and you may experience a feeling of wishes being granted. Enjoy the comfort and pleasure around you. This is a good day to celebrate your achievements and acknowledge the good things in your life. Be mindful of indulgence, though, and maintain a sense of gratitude for what you have.",
+     "keywords": ["satisfaction", "wishes granted", "comfort", "pleasure", "contentment", "achievements", "gratitude", "indulgence (with caution)"]
+  }
+}
+```
