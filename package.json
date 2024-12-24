@@ -1,7 +1,7 @@
 {
   "name": "tarotask",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tarotask",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/melvincarvalho/tarotask#readme",
   "bin": {
     "tarotask": "./bin/pick_tarot_card.sh"
-  }
+  },
+  "files": [
+    "data/"
+  ]
 }
